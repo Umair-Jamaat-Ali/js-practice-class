@@ -5,6 +5,9 @@
 //1 string data which used for alphabetics and its always writtien in double qotation (""), for exmple
 
 var userName = "umair jamaat Ali";
+
+// console.log is used to show results in inspect 'console',, its save data ram boxes in randomly
+
 console.log("User name is ", userName);
 
 // 2 numberic data awhich used for numeric, for example
@@ -49,3 +52,11 @@ console.log("division is ", divi)
 var mod = 5%3;
 console.log("modules is ", mod);
 
+// math operation used in an equations
+
+var q = 5 + 6 * 3 - (65 / 13);
+console.log("Result is =>", q);
+
+
+var q1 = (9 -3) * (9 + 3);
+console.log("Result 1 is =>", q1)
