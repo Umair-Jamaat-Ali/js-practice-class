@@ -59,4 +59,39 @@ console.log("Result is =>", q);
 
 
 var q1 = (9 -3) * (9 + 3);
-console.log("Result 1 is =>", q1)
+console.log("Result 1 is =>", q1);
+
+// true and false operations
+var q2 = 5 >2
+console.log("Result 2", q2);
+
+var q3 = 6<2
+console.log("Result 3", q3);
+
+var q4 = 4==3;
+console.log("Result 4", q4);
+
+var q5 = 4!=8;
+console.log("result 5", q5)
+
+// write a program that prompt, which enter a number and check the result is true or false
+
+var number = prompt("Enter a number");
+
+var q6 = number>7;
+console.log("Result 6", q6);
+
+// write a program for taking square 
+
+var number1 = prompt("Enter a number who taking square");
+
+var q7 = number1 * number1;
+console.log("Result 7", q7);
+
+// write a program for taking square root
+
+ //var number2 = prompt("Enter a number who taking square root");
+
+var q8 = Math.sqrt(q7);
+
+console.log("Result 8", q8);
