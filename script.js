@@ -95,3 +95,45 @@ console.log("Result 7", q7);
 var q8 = Math.sqrt(q7);
 
 console.log("Result 8", q8);
+
+
+// And operation and it's written in javascript (&&)
+// T T = T
+// T F = F
+// F T = F
+// F F = F
+
+var x = 6<8 && 5==5;
+console.log("Result of x", x);
+
+var x1 = 6>3 && 5==9
+console.log("Result of x1", x1);
+
+
+var x2 = 5>8 && 9==9
+console.log("result of x2", x2);
+
+
+var x3 = 4<6 && 7>9
+console.log("Result of x3", x3);
+
+
+// OR operation and it's written in javascript (||)
+// T T = T
+// T F = T
+// F T = T
+// F F = F
+
+var y = 6<8 || 5==5;
+console.log("Result of y", y);
+
+var y1 = 6>3 || 5==9
+console.log("Result of y1", y1);
+
+
+var y2 = 5>8 || 9==9
+console.log("result of y2", y2);
+
+
+var y3 = 4<6 || 7>9
+console.log("Result of y3", y3);
