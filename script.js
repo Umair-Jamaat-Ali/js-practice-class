@@ -137,3 +137,35 @@ console.log("result of y2", y2);
 
 var y3 = 4<6 || 7>9
 console.log("Result of y3", y3);
+
+var c = 23;
+var d = 12;
+var linebreak = ("br/")
+d += c
+
+console.log("result of d", d)
+
+d -= c
+
+console.log("result of d", d)
+
+d /= c
+
+console.log("result of d", d)
+
+d *= c
+
+console.log("result of d", d)
+
+
+// write the a program of prompt if program
+
+var num = prompt("enter the value")
+
+var e = num>5
+
+if(e){
+    console.log("Yor entre a number greater than 5", e)
+}
+
+
